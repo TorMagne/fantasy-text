@@ -18,7 +18,7 @@
         </div>
       </div>
 
-      <div class="mt-1 w-48">
+      <div class="mt-1 w-100">
         <div class="mt-1 h-2 overflow-hidden border border-game-border-dim bg-game-panel-3">
           <div class="h-full bg-game-gold" style="width: 53.33%" />
         </div>
@@ -44,15 +44,15 @@
 
     <!-- Actions -->
     <section class="flex items-center gap-5 text-game-text-dim">
-      <button class="transition hover:text-game-gold-light">
+      <button class="transition hover:text-game-gold-light cursor-pointer">
         <LucideMail :size="20" />
       </button>
 
-      <button class="transition hover:text-game-gold-light">
+      <button class="transition hover:text-game-gold-light cursor-pointer">
         <LucideBell :size="20" />
       </button>
 
-      <button class="transition hover:text-game-gold-light">
+      <button class="transition hover:text-game-gold-light cursor-pointer">
         <LucideCog :size="20" />
       </button>
     </section>

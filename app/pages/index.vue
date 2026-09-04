@@ -1,8 +1,15 @@
+```vue
 <template>
-  <GameHeader />
-  <button
-    class="border border-game-border-gold bg-game-gold-dark px-5 py-2 font-fantasy text-game-white transition hover:bg-game-gold"
-  >
-    Investigate
-  </button>
+  <div class="flex h-screen flex-col bg-game-bg">
+    <GameHeader class="shrink-0" />
+
+    <div class="flex min-h-0 flex-1">
+      <GameMap />
+
+      <GameScene />
+
+      <CharacterPanel />
+    </div>
+  </div>
 </template>
+```
