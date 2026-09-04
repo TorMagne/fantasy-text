@@ -1,0 +1,64 @@
+@import 'tailwindcss';
+
+@theme {
+  /* ─────────────────────────────
+     Typography
+     ───────────────────────────── */
+
+  --font-fantasy: 'Cinzel', serif;
+  --font-narrative: 'Cormorant Garamond', serif;
+
+  /* ─────────────────────────────
+     Surfaces
+     ───────────────────────────── */
+
+  --color-game-bg: #0b0c0b;
+  --color-game-panel: #141514;
+  --color-game-panel-2: #1b1b18;
+  --color-game-panel-3: #22221d;
+
+  /* ─────────────────────────────
+     Borders
+     ───────────────────────────── */
+
+  --color-game-border: #4d432f;
+  --color-game-border-dim: #302c22;
+  --color-game-border-gold: #75613a;
+
+  /* ─────────────────────────────
+     Brand / Gold
+     ───────────────────────────── */
+
+  --color-game-gold: #c4a15b;
+  --color-game-gold-light: #dfc47d;
+  --color-game-gold-dark: #806633;
+
+  /* ─────────────────────────────
+     Text
+     ───────────────────────────── */
+
+  --color-game-text: #d8d0bd;
+  --color-game-text-dim: #968f7f;
+  --color-game-text-muted: #6d685c;
+  --color-game-white: #eee8d9;
+
+  /* ─────────────────────────────
+     Semantic
+     ───────────────────────────── */
+
+  --color-game-success: #86ad63;
+  --color-game-success-dark: #3e5c32;
+
+  --color-game-danger: #a8473e;
+  --color-game-danger-dark: #54201d;
+
+  --color-game-info: #718aa5;
+  --color-game-magic: #8669a4;
+
+  /* ─────────────────────────────
+     Map
+     ───────────────────────────── */
+
+  --color-game-map: #18231c;
+  --color-game-map-glow: #9bbf6c;
+}
