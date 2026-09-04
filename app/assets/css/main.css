@@ -12,17 +12,17 @@
      Surfaces
      ───────────────────────────── */
 
-  --color-game-bg: #0b0c0b;
-  --color-game-panel: #141514;
-  --color-game-panel-2: #1b1b18;
-  --color-game-panel-3: #22221d;
+  --color-game-bg: #111310;
+  --color-game-panel: #181916;
+  --color-game-panel-2: #1e1f1a;
+  --color-game-panel-3: #25251f;
 
   /* ─────────────────────────────
      Borders
      ───────────────────────────── */
 
-  --color-game-border: #4d432f;
-  --color-game-border-dim: #302c22;
+  --color-game-border: #514833;
+  --color-game-border-dim: #373329;
   --color-game-border-gold: #75613a;
 
   /* ─────────────────────────────
